@@ -22,6 +22,7 @@ Running the Chat-App:
 (4). Start Chatting.
 
 (5). To terminate the chat just Enter '!'.
+
 (6). Termination message will be sent to Remote Person.
 
 Working:-
@@ -33,9 +34,13 @@ Designed on User Datagram Protocol (UDP).
 (2)-List C data structure used. 
 
 (3) 4 threads designed.
+
     (1) First Thread used to store our message into list.
+    
     (2) Second Thread used to take out our message and send to remote person.
+    
     (3) Third Thread used to store message of remote person into another list.
+    
     (4) Forth Thread used to take out remote person message from list and print on my screen.
     
 (4) Socket establishing and binding used.
@@ -45,5 +50,7 @@ Designed on User Datagram Protocol (UDP).
 Construction of List Data Structure for storing Messages.
 
 (1) Major Focus on Memory management.
+
 (2) Two arrays one for List headers and one for Nodes.
+
 (3) All List shares same memory.
